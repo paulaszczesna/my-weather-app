@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+
+.container {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  max-width: 550px;
+  line-height: 1.5;
+  box-shadow: rgb(37 39 89 / 15%) 0px 12px 12px 0;
+  background: #ffffff;
+  border-radius: 20px;
+  color: black;
+  width: 50%;
+  padding: 30px;
+  margin: 30px auto;
+}
+form {
+  text-align: left;
+}
+h1 {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+h2 {
+  font-size: 70px;
+}
+.measure {
+  text-align: right;
+  font-size: 25px;
+}
+.weatheremoji {
+  width: 70%;
+  max-width: 550px;
+  position: center;
+}
+.forecastemoji {
+  width: 70%;
+  max-width: 50px;
+  position: center;
+  padding-bottom: 8px;
+}
+.current-temp {
+  display: block;
+  text-align: center;
+}
+.temp-today {
+  font-size: 20px;
+}
+.current-prop {
+  text-align: left;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
