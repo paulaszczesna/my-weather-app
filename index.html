@@ -17,23 +17,21 @@
   <body>
     <div class="container">
       <form id="search-form">
-        <input type="text" placeholder="Enter your city" id="city-input" />
+        <input type="text" placeholder="Enter your city..." id="city-input" />
         <input type="submit" value="🔎" />
-        <button class="btn btn-success w-100" id="current-location-button">
-          My location
-        </button>
+        <button class="btn-my-location" id="current-location-button">📍</button>
       </form>
       <br />
       <div class="measure"><strong>°C</strong>/°F</div>
       <div id="date"></div>
       <hr />
       <h1 id="city"><strong>WARSAW</strong></h1>
-      <img src="images/sun.png" alt="sun" class="weatheremoji" />
+      <img src="images/sun.png" alt="clear" id="icon" class="weatheremoji" />
       <div class="row">
         <div class="col-2"></div>
         <div class="col-4 current-temp">
-          <h2 id="temperature">10</h2>
-          <span class="dergee">°</span>
+          <span id="temperature">10</span>
+          <span class="degree">°</span>
           <p class="temp-today"><strong>11°</strong>| 5°</p>
         </div>
         <div class="col-4 current-prop">
@@ -41,8 +39,8 @@
           <hr />
           <ul class="weather-properties">
             <li>HUMIDITY <span id="humidity"></span>%</li>
-
             <li>WIND <span id="wind"></span> KM/H</li>
+            <li>RAIN <span id="rain"></span> %</li>
           </ul>
         </div>
         <div class="col-2"></div>
@@ -52,7 +50,7 @@
       <div class="row">
         <div class="col">
           <h4>MON</h4>
-          <img src="images/sun.png" alt="sun" class="forecastemoji" />
+          <img src="images/sun.png" alt="sun" class="forecastemoji"  />
           <br />
           <p><strong>11°</strong>| 5°</p>
         </div>
