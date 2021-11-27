@@ -27,7 +27,7 @@ h1 {
   text-transform: uppercase
 }
 
-[id=temperature] { font-size: 68px;
+[id=temperature] { font-size: 85px;
   display: inline-block;
  }
 .btn-my-location {
@@ -48,8 +48,8 @@ cursor: pointer;
   border: solid;
   border-color: #f4f4f4}
 
-.degree {font-size: 60px;  margin-bottom: 10px;
-font-weight: 300;}
+.degree {font-size: 80px;  margin-bottom: 20px;
+font-weight: 150;}
 
 .weatheremoji {
   width: 20%;
@@ -57,8 +57,6 @@ font-weight: 300;}
   position: center;
 }
 .forecastemoji {
-  width: 70%;
-  max-width: 50px;
   position: center;
   padding-bottom: 8px;
 }
@@ -67,10 +65,13 @@ font-weight: 300;}
   text-align: center;
 }
 .temp-today {
-  font-size: 20px;
+  font-size: 15px;
 }
 .current-prop {
   text-align: left;
+}
+.weather-forecast-temperature-max {
+  font-weight: bold;
 }
 ul {
   list-style: none;
