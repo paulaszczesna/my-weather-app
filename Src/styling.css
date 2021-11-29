@@ -2,7 +2,7 @@ body {
   background: radial-gradient(circle at 10% 20%, rgb(253, 193, 104) 0%, rgb(251, 128, 128) 90%);
 }
 
-.container {
+.weather-app {
   display: block;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
@@ -15,7 +15,11 @@ body {
   width: 50%;
   padding: 30px;
   margin: 30px auto;
+  margin-bottom: 10px;
 }
+small {display: block;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;}
 form {
   text-align: left;
 }
